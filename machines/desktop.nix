@@ -17,6 +17,7 @@
       ../locale.nix
       ../graphical/general.nix
       ../graphical/gnome.nix
+      #../graphical/i3.nix
       ../services/tailscale.nix
       ../dev_env/c.nix
       ../dev_env/python.nix
