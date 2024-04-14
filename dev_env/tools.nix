@@ -9,6 +9,7 @@
 
   environment.systemPackages = (with pkgs; [
     vim
+    neovim
     ripgrep
     ctags
     htop
