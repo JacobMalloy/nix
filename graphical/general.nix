@@ -44,6 +44,7 @@
      okular
      inkscape
      vlc
+     libreoffice
   ]);
 
 
