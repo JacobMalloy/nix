@@ -8,14 +8,7 @@
 
 environment.systemPackages = with pkgs; [
     (python311.withPackages (p: with p; [
-      pandas
-      jupyter
       pip
-      notebook
-      numpy
-      scipy
-      sympy
-      matplotlib
     ]))
   ];
 
