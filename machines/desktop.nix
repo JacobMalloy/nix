@@ -25,7 +25,7 @@
       ../dev_env/latex.nix
       ../dev_env/tools.nix
       ../services/ssh.nix
-      ../rgb.nix
+      #../rgb.nix
     ];
 
   #need this for dual booting windows
