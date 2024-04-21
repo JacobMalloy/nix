@@ -24,6 +24,7 @@
       ../dev_env/perf.nix
       ../dev_env/latex.nix
       ../dev_env/tools.nix
+      ../dev_env/cross_aarch64.nix
       ../services/ssh.nix
       #../rgb.nix
     ];
