@@ -9,7 +9,6 @@
 
   environment.systemPackages = (with pkgs; [
      gcc
-     git
      gdb
      gnumake
      cmake
