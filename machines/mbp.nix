@@ -8,9 +8,10 @@
   networking.hostName = "desktop"; # Define your hostname.
   imports = [
       ../nix_general.nix
+      ../dev_env/tools.nix
     ];
 
   #need this for dual booting windows
-  time.hardwareClockInLocalTime = true;
+  #time.hardwareClockInLocalTime = true;
 
 }
