@@ -11,6 +11,7 @@
     git
     vim
     neovim
+    tmux
     ripgrep
     ctags
     htop
