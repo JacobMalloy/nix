@@ -16,7 +16,7 @@
 #      ../graphical/general.nix
 #      ../graphical/gnome.nix
 #      ../services/tailscale.nix
-#      ../dev_env/c.nix
+      ../dev_env/c.nix
 #      ../dev_env/python.nix
 #      ../dev_env/perf.nix
 #      ../dev_env/latex.nix
