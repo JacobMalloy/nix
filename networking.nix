@@ -14,10 +14,10 @@
   # networking.interfaces.enp6s0.useDHCP = lib.mkDefault true;
   # networking.interfaces.wlp5s0.useDHCP = lib.mkDefault true;
 
-
   # Enable networking
   networking.networkmanager.enable = true;
   networking.interfaces.enp6s0.wakeOnLan.enable = true;
-
+  services.avahi.enable = true;
+  services.avahi.nssmdns = true;
 
 }
