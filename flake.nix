@@ -1,9 +1,10 @@
 {
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-23.11";
+    unstable.url = "github:nixos/nixpkgs-channels/nixos-unstable";
   };
 
-  outputs = { self, nixpkgs, ... } @ attrs: {
+  outputs = { self, nixpkgs, unstable, ... } @ attrs: {
     nixosConfigurations.desktop = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
       modules = [
