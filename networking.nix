@@ -18,6 +18,6 @@
   networking.networkmanager.enable = true;
   networking.interfaces.enp6s0.wakeOnLan.enable = true;
   services.avahi.enable = true;
-  services.avahi.nssmdns = true;
+  services.avahi.nssmdns4 = true;
 
 }
