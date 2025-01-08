@@ -1,6 +1,6 @@
 {
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.11";
     unstable.url = "github:nixos/nixpkgs-channels/nixos-unstable";
   };
 
@@ -9,6 +9,12 @@
       system = "x86_64-linux";
       modules = [
         ./machines/desktop.nix
+      ];
+    };
+    nixosConfigurations.vm = nixpkgs.lib.nixosSystem {
+      system = "aarch64-linux";
+      modules = [
+        ./machines/vm.nix
       ];
     };
     nixosConfigurations.rpi = nixpkgs.lib.nixosSystem {
