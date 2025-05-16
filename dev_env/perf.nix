@@ -8,11 +8,10 @@
 
 
   environment.systemPackages = (with pkgs; [
-     linuxKernel.packages.linux_zen.perf
+     linuxPackages_latest.perf
   ]);
 
 
 
-  system.stateVersion = "23.11"; # Did you read the comment?
 
 }

@@ -7,6 +7,7 @@
 {
   networking.hostName = "vm"; # Define your hostname.
   imports = [
+      ../grub.nix
       ../nix_general.nix
       ../networking.nix
       ../gpg_agent.nix
